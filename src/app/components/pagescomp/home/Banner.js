@@ -4,12 +4,12 @@ import BannerItem from './BannerItem'
 const Banner = () => {
   return (
     <>
-        <section class="tp-slider-area p-relative z-index-1">
-            <div class="tp-slider-active-2 swiper-container">
-                <div class="swiper-wrapper">
+        <section className="tp-slider-area p-relative z-index-1">
+            <div className="tp-slider-active-2 swiper-container">
+                <div className="swiper-wrapper">
                     <BannerItem/>
                 </div>
-                <div class="tp-swiper-dot tp-slider-2-dot"></div>
+                <div className="tp-swiper-dot tp-slider-2-dot"></div>
             </div>
         </section>
 

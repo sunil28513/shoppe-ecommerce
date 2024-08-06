@@ -84,18 +84,18 @@ const ProductList = () => {
 
   return (
     <>
-            <section class="tp-product-area pb-90">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="tp-section-title-wrapper-2 text-center mb-35">
-                                <span class="tp-section-title-pre-2">
+            <section className="tp-product-area pb-90">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-12">
+                            <div className="tp-section-title-wrapper-2 text-center mb-35">
+                                <span className="tp-section-title-pre-2">
                                 All Product Shop
                                 <svg width="82" height="22" viewBox="0 0 82 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M81 14.5798C0.890564 -8.05914 -5.81154 0.0503902 5.00322 21" stroke="currentColor" stroke-opacity="0.3" stroke-width="2" stroke-miterlimit="3.8637" stroke-linecap="round"/>
                                 </svg>
                                 </span>
-                                <h3 class="tp-section-title-2">Customer Favorite Style Product</h3>
+                                <h3 className="tp-section-title-2">Customer Favorite Style Product</h3>
                             </div>
                         </div>
                     </div>
@@ -124,10 +124,10 @@ const ProductList = () => {
                                 <Tab.Pane eventKey="all">
                                     <div className='row'>
                                         {products.map(product => (
-                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                                                <div class="tp-product-item-2 mb-40">
+                                            <div key={product.id} className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div className="tp-product-item-2 mb-40">
                                                     <div className="product-list">
-                                                        <ProductCard key={product.id} product={product} />
+                                                        <ProductCard  product={product} />
                                                     </div>
                                                 </div>
                                             </div>
