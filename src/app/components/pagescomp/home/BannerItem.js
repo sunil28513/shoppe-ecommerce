@@ -14,7 +14,7 @@ const BannerItem = () => {
                         <span>New Arrivals 2024</span>
                         <h3 className="tp-slider-title-2">The Clothing Collection</h3>
                         <div className="tp-slider-btn-2">
-                        <a href="shop.html" className="tp-btn tp-btn-border">Shop Collection</a>
+                        <a href="#" className="tp-btn tp-btn-border">Shop Collection</a>
                         </div>
                     </div>
                 </div>
